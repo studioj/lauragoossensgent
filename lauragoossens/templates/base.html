@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laura Goossens</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body bgcolor="#e9ebed">
+    <header id="masthead" class="mx-auto site-header" role="banner"
+            style="background-position: center center; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; background-size: cover;">
+
+
+        <div class="site-branding">
+
+
+            <h1 class="site-title">
+                <a href="http://lauragoossens.gent/" title="Laura Goossens" rel="home">Laura Goossens</a>
+            </h1>
+
+
+        </div><!-- .site-branding -->
+
+
+        <div id="header-menu" class="menu horizontal-menu header-menu">
+            <ul>
+                <li class="page_item"><a href="/contact/">Afspraak maken</a></li>
+                <li class="page_item"><a href="/bereikbaarheid/">Bereikbaarheid</a>
+                </li>
+                <li class="page_item current_page_item"><a href="/">De praktijk</a>
+                </li>
+                <li class="page_item"><a href="/achtergrond/">Klinisch psycholoog</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="content">
+        {% block content %}
+            <p> No content filled in </p>
+        {% endblock %}
+    </div>
+    <div class="container" align="center">
+        Copyright Laura Goossens 2019
+    </div>
+</body>
+</html>

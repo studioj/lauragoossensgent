@@ -1,0 +1,575 @@
+body, button, input, select, textarea, .site-title a, .menu a, .entry-title, .search-entry, .search-entry .entry-title, .entry-title a, .format-link .entry-title h2 a, .read-more, .author-name a, .explore-page .widget h1, .decode-reply-tool-plugin .replylink, .decode-reply-tool-plugin .replytrigger {
+    color: rgb(115, 44, 81);
+}
+
+@media all {
+    .entry-content, .entry-summary, .page-content {
+        overflow-wrap: break-word;
+        margin: 0px 0px 2.5%;
+    }
+}
+
+@media all {
+    *, ::after, ::before {
+        box-sizing: inherit;
+    }
+}
+
+@media all {
+    .entry-content, .entry-summary, .page-content {
+        overflow-wrap: break-word;
+        margin: 0px 0px 2.5%;
+    }
+}
+
+@media all {
+    .entry-content {
+        font-size: 1em;
+    }
+}
+@media all {
+    .entry-content-sub {
+        font-size: 1em;
+        line-height: 1;
+    }
+}
+
+@media all {
+    html {
+        text-size-adjust: 100%;
+    }
+}
+
+@media all {
+    html {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    body {
+        margin: 0px;
+    }
+}
+
+@media all {
+    body {
+        background: rgb(233, 235, 237);
+    }
+}
+
+@media all {
+    body, button, input, select, textarea {
+        color: rgb(68, 68, 68);
+        font-weight: 300;
+        line-height: 1.5;
+    }
+}
+
+@media all {
+    body {
+        text-align: left;
+        margin: 0px;
+        background-color: rgb(233, 235, 237);
+    }
+}
+
+@media all {
+    .site {
+        overflow: auto;
+        width: 100%;
+    }
+}
+
+@media all {
+    a {
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+        border-bottom: 0px solid rgba(69, 69, 69, 0);
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .no-touch a:hover, a {
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    body .screen-reader-text {
+        overflow: hidden;
+        clip: rect(0px, 0px, 0px, 0px);
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0px;
+        border: 0px;
+        margin: -1px;
+    }
+}
+
+@media all {
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+    }
+}
+
+@media all {
+    .site-header {
+        width: 100%;
+        border-bottom: 1px solid rgb(0, 176, 204);
+        margin: 3.5% auto 0px;
+    }
+}
+
+@media all {
+    .site-branding {
+        text-align: center;
+        margin: 1.5% auto 2.5%;
+    }
+}
+
+@media all {
+    h1 {
+        font-size: 2em;
+        margin: 0.67em 0px;
+    }
+}
+
+@media all {
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: inherit;
+        clear: both;
+        margin: 0px;
+    }
+}
+
+@media all {
+    .site-title {
+        font-size: 4em;
+        line-height: 1;
+        text-align: center;
+        overflow-wrap: break-word;
+        margin: 0px 0px 0.5%;
+    }
+}
+
+@media all {
+    a {
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+        border-bottom: 0px solid rgba(69, 69, 69, 0);
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .no-touch a:hover, a {
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    .site-title a {
+        transition: color 0.5s ease 0s;
+        color: rgb(68, 68, 68);
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+}
+
+@media all {
+    .menu {
+        clear: both;
+        width: 100%;
+    }
+}
+
+@media all {
+    .horizontal-menu {
+        position: relative;
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media all {
+    .header-menu {
+        margin: 2.5% auto 1.5%;
+    }
+}
+
+@media all {
+    ol, ul {
+        margin: 0px 0px 1.5em 1em;
+    }
+}
+
+@media all {
+    ul {
+        list-style: disc;
+    }
+}
+
+@media all {
+    .menu ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px auto;
+    }
+}
+
+@media all {
+    .horizontal-menu li {
+        display: inline-block;
+        margin: 0px 0.5em;
+    }
+}
+
+@media all {
+    .menu > ul > li:first-child {
+        margin-left: 0px;
+    }
+}
+
+@media all {
+    a {
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+        border-bottom: 0px solid rgba(69, 69, 69, 0);
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .no-touch a:hover, a {
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    .menu a {
+        transition: color 0.25s ease 0s;
+        display: block;
+        text-decoration: none;
+    }
+}
+
+@media all {
+    .menu a {
+        color: rgb(68, 68, 68);
+    }
+}
+
+@media all {
+    .horizontal-menu li {
+        display: inline-block;
+        margin: 0px 0.5em;
+    }
+}
+
+@media all {
+    a {
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+        border-bottom: 0px solid rgba(69, 69, 69, 0);
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .no-touch a:hover, a {
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    .menu a {
+        transition: color 0.25s ease 0s;
+        display: block;
+        text-decoration: none;
+    }
+}
+
+@media all {
+    .menu a {
+        color: rgb(68, 68, 68);
+    }
+}
+
+@media all {
+    .horizontal-menu li {
+        display: inline-block;
+        margin: 0px 0.5em;
+    }
+}
+
+@media all {
+    a {
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+        border-bottom: 0px solid rgba(69, 69, 69, 0);
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .no-touch a:hover, a {
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    .menu a {
+        transition: color 0.25s ease 0s;
+        display: block;
+        text-decoration: none;
+    }
+}
+
+@media all {
+    .menu a {
+        color: rgb(68, 68, 68);
+    }
+}
+
+@media all {
+    .menu .current-menu-item > a, .menu .current_page_item > a {
+        position: relative;
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    .horizontal-menu li {
+        display: inline-block;
+        margin: 0px 0.5em;
+    }
+}
+
+@media all {
+    .menu > ul > li:last-child {
+        margin-right: 0px;
+    }
+}
+
+@media all {
+    a {
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+        border-bottom: 0px solid rgba(69, 69, 69, 0);
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .no-touch a:hover, a {
+        color: rgb(0, 176, 204);
+    }
+}
+
+@media all {
+    .menu a {
+        transition: color 0.25s ease 0s;
+        display: block;
+        text-decoration: none;
+    }
+}
+
+@media all {
+    .menu a {
+        color: rgb(68, 68, 68);
+    }
+}
+
+@media all {
+    .site-content {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 68.5em) {
+    .site-main {
+        max-width: none;
+    }
+}
+
+@media (min-width: 68.5em) {
+    .site-main {
+        width: 49%;
+    }
+}
+
+@media all {
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+    }
+}
+
+@media all {
+    .site-footer, .site-main {
+        width: 92.5%;
+        margin: 0px auto;
+    }
+}
+
+@media all {
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+    }
+}
+
+@media all {
+    .hentry {
+        margin: 0px 0px 1.5em;
+    }
+}
+
+@media all {
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+    }
+}
+
+@media all {
+    .entry-header {
+        text-align: center;
+        margin: 5% auto 3.5%;
+    }
+}
+
+@media all {
+    .page .entry-header, .single .entry-header {
+        font-size: 1.25em;
+        margin: 2.5% auto 5%;
+    }
+}
+
+@media all {
+    h1 {
+        font-size: 2em;
+        margin: 0.67em 0px;
+    }
+}
+
+@media all {
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: inherit;
+        clear: both;
+        margin: 0px;
+    }
+}
+
+@media all {
+    body .screen-reader-text {
+        overflow: hidden;
+        clip: rect(0px, 0px, 0px, 0px);
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0px;
+        border: 0px;
+        margin: -1px;
+    }
+}
+
+@media all {
+    .entry-title {
+        font-size: 1.5em;
+        line-height: 1.25;
+        text-align: center;
+        text-decoration: none;
+        overflow-wrap: break-word;
+        margin: 0px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media all {
+    .entry-content, .entry-summary, .page-content {
+        overflow-wrap: break-word;
+        margin: 0px 0px 2.5%;
+    }
+}
+
+@media all {
+    .entry-content p {
+        margin-bottom: 0.5em;
+    }
+}
+@media all {
+    *, ::after, ::before {
+        box-sizing: inherit;
+    }
+}
+
+@media all {
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+    }
+}
+
+@media all {
+    .site-footer, .site-main {
+        width: 92.5%;
+        margin: 0px auto;
+    }
+}
+
+@media all {
+    .site-footer {
+        padding-bottom: 35px;
+        padding-top: 25px;
+    }
+}
+
+@media all {
+    .site-colophon, .theme-info {
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 1em;
+    }
+}
+
+@media all {
+    .site-colophon p, .theme-info p {
+        margin-bottom: 0px;
+    }
+}
