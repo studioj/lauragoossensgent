@@ -21,7 +21,7 @@ jobs:
       deploy:
         provider: heroku
         api_key:
-          secure: $heroku-api-key
+          secure: $herokuapikey
         app: lauragoossens
         on:
-          repo: studioj/lauragoossens.gent
+          repo: studioj/lauragoossensgent
