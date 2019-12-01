@@ -1,0 +1,40 @@
+sudo: true
+language: python
+python:
+  - 3.7
+  - nightly
+
+env:
+  - MOZ_HEADLESS=1
+
+addons:
+  firefox: latest
+
+install:
+  - pip install django
+  - pip install gunicorn
+  - pip install coverage
+  - pip install nose
+
+before_install:
+  - wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
+  - mkdir geckodriver
+  - tar -xzf geckodriver-v0.24.0-linux64.tar.gz -C geckodriver
+  - sudo chmod +x $PWD/geckodriver/geckodriver
+  - export PATH=$PATH:$PWD/geckodriver
+
+script:
+  - nosetests --with-cov --cov-config .coveragerc
+after_success:
+  - codecov
+jobs:
+  include:
+    - stage: Deploy
+      script: skip
+      deploy:
+        provider: heroku
+        api_key:
+          secure: {insert secret here}
+        app: lauragoossens
+        on:
+          repo: studioj/lauragoossens.gent
