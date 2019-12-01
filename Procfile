@@ -1,1 +1,1 @@
-web: gunicorn lauragoossens.wsgi
+web: gunicorn lauragoossens.wsgi  --log-file -
