@@ -18,8 +18,8 @@ from django.urls import path
 from lauragoossens import views
 
 urlpatterns = [
-    path('/', views.home_page),
-    path('', views.home_page),
+    path('/', views.index),
+    path('', views.index),
     path('contact', views.contact),
     path('contact/', views.contact),
     path('bereikbaarheid', views.bereikbaarheid),

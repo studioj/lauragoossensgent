@@ -19,21 +19,24 @@
 
 
                 <h1 class="site-title">
-                    <a href="http://lauragoossens.gent/" title="Laura Goossens" rel="home">Laura Goossens</a>
+                    <a href="/" title="Laura Goossens" rel="home">Laura Goossens</a>
                 </h1>
 
 
             </div><!-- .site-branding -->
 
-
             <div id="header-menu" class="menu horizontal-menu header-menu">
                 <ul>
-                    <li class="page_item"><a href="/contact/">Afspraak maken</a></li>
-                    <li class="page_item"><a href="/bereikbaarheid/">Bereikbaarheid</a>
+                    <li class="page_item {% if page_title == "contact" %}current_page_item  {% else %} {% endif %}"><a
+                            href="/contact/">Afspraak maken</a></li>
+                    <li class="page_item {% if page_title == "bereikbaarheid" %}current_page_item  {% else %} {% endif %}">
+                        <a href="/bereikbaarheid/">Bereikbaarheid</a>
                     </li>
-                    <li class="page_item current_page_item"><a href="/">De praktijk</a>
+                    <li class="page_item {% if page_title == "index" %}current_page_item  {% else %} {% endif %}"><a
+                            href="/">De praktijk</a>
                     </li>
-                    <li class="page_item"><a href="/achtergrond/">Klinisch psycholoog</a>
+                    <li class="page_item {% if page_title == "achtergrond" %}current_page_item  {% else %} {% endif %}">
+                        <a href="/achtergrond/">Klinisch psycholoog</a>
                     </li>
                 </ul>
             </div>
@@ -44,9 +47,10 @@
                 <p> No content filled in </p>
             {% endblock %}
         </div>
-        <div class="container" align="center">
-            Copyright Laura Goossens 2019
+        <footer class="page-footer">
+            <div class="container text-center"><span>Copyright Laura Goossens 2019</span>
         </div>
+        </footer>
     </div>
 </body>
 </html>
