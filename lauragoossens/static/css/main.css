@@ -9,34 +9,9 @@ body, button, input, select, textarea, .site-title a, .menu a, .entry-title, .se
     }
 }
 
-@media all {
-    *, ::after, ::before {
-        box-sizing: inherit;
-    }
-}
-
-@media all {
-    .entry-content, .entry-summary, .page-content {
-        overflow-wrap: break-word;
-        margin: 0px 0px 2.5%;
-    }
-}
-
-@media all {
-    .entry-content {
-        font-size: 1em;
-    }
-}
-@media all {
-    .entry-content-sub {
-        font-size: 1em;
-        line-height: 1;
-    }
-}
-
-@media all {
-    html {
-        text-size-adjust: 100%;
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
     }
 }
 
