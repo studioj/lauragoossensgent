@@ -10,7 +10,7 @@ body, button, input, select, textarea, .site-title a, .menu a, .entry-title, .se
 }
 
 @media (min-width: 1200px) {
-    .container{
+    .container {
         max-width: 970px;
     }
 }
@@ -341,7 +341,20 @@ body, button, input, select, textarea, .site-title a, .menu a, .entry-title, .se
 @media all {
     .menu .current-menu-item > a, .menu .current_page_item > a {
         position: relative;
-        color: rgb(0, 176, 204);
+        color: #d9a60b;
+    }
+}
+
+@media all {
+    .menu .current_page_item > a:hover {
+        animation: shake 0.25s ease 0.25s;
+        color: #00b0cc;
+    }
+}
+
+@media all {
+    .menu .page_item > a:hover {
+        color: #00b0cc;
     }
 }
 
@@ -509,6 +522,7 @@ body, button, input, select, textarea, .site-title a, .menu a, .entry-title, .se
         margin-bottom: 0.5em;
     }
 }
+
 @media all {
     *, ::after, ::before {
         box-sizing: inherit;

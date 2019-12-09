@@ -10,47 +10,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body bgcolor="#e9ebed">
-    <div class="container">
-        <header id="masthead" class="mx-auto site-header" role="banner"
-                style="background-position: center center; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; background-size: cover;">
+<div class="container">
+    <header id="masthead" class="mx-auto site-header" role="banner"
+            style="background-position: center center; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; background-size: cover; border-color: #d9a60b;">
 
 
-            <div class="site-branding">
+        <div class="site-branding">
+
+            <h1 class="site-title">
+                <a href="/" title="Laura Goossens" rel="home">Laura Goossens</a>
+            </h1>
 
 
-                <h1 class="site-title">
-                    <a href="/" title="Laura Goossens" rel="home">Laura Goossens</a>
-                </h1>
+        </div><!-- .site-branding -->
 
-
-            </div><!-- .site-branding -->
-
-            <div id="header-menu" class="menu horizontal-menu header-menu">
-                <ul>
-                    <li class="page_item {% if page_title == "contact" %}current_page_item  {% else %} {% endif %}"><a
+        <div id="header-menu" class="menu horizontal-menu header-menu">
+            <ul>
+                <li class="page_item {% if page_title == "contact" %}current_page_item  {% else %}page_item {% endif %}">
+                    <a
                             href="/contact/">Afspraak maken</a></li>
-                    <li class="page_item {% if page_title == "bereikbaarheid" %}current_page_item  {% else %} {% endif %}">
-                        <a href="/bereikbaarheid/">Bereikbaarheid</a>
-                    </li>
-                    <li class="page_item {% if page_title == "index" %}current_page_item  {% else %} {% endif %}"><a
+                <li class="page_item {% if page_title == "bereikbaarheid" %}current_page_item  {% else %}page_item {% endif %}">
+                    <a href="/bereikbaarheid/">Bereikbaarheid</a>
+                </li>
+                <li class="page_item {% if page_title == "index" %}current_page_item  {% else %}page_item {% endif %}">
+                    <a
                             href="/">De praktijk</a>
-                    </li>
-                    <li class="page_item {% if page_title == "achtergrond" %}current_page_item  {% else %} {% endif %}">
-                        <a href="/achtergrond/">Klinisch psycholoog</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
+                </li>
+                <li class="page_item {% if page_title == "achtergrond" %}current_page_item  {% else %}page_item {% endif %}">
+                    <a href="/achtergrond/">Klinisch psycholoog</a>
+                </li>
+            </ul>
+        </div>
+    </header>
 
-        <div id="content">
-            {% block content %}
-                <p> No content filled in </p>
-            {% endblock %}
-        </div>
-        <footer class="page-footer">
-            <div class="container text-center"><span>Copyright Laura Goossens 2019</span>
-        </div>
-        </footer>
+    <div id="content">
+        {% block content %}
+            <p> No content filled in </p>
+        {% endblock %}
     </div>
+    <footer class="page-footer">
+        <p><br></br></p>
+        <p><br></br></p>
+        <div class="container text-center"><span>Copyright Laura Goossens 2019</span>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
